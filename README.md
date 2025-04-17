@@ -78,4 +78,4 @@ Jhoan Zamora: [jzamora5](https://github.com/jzamora5)
 Harrison Gearhart: [HarrisonGearhart](https://github.com/HarrisonGearhart)
 
 # GitHub Page 
-Click [here](https://github.com/HarrisonGearhart/atlas-smiling-school-javascript/) to view Github Page
+Click [here](https://harrisongearhart.github.io/atlas-smiling-school-javascript/homepage.html) to view Github Page

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>atlas-smiling</title>
@@ -18,9 +18,15 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="font-style.css" />
     <link rel="stylesheet" href="styles.css" />
-  </head>
+    <style>
+      /* Add custom styles for white background in FAQ section */
+      .faq {
+          background-color: white; /* Change background color to white */
+      }
+    </style>
+</head>
 
-  <body class="body pricing-header">
+<body class="body pricing-header">
     <!-- Header Section -->
     <header class="header">
       <div class="container">
@@ -47,7 +53,7 @@
         </nav>
 
         <!-- Hero Section -->
-        <section class="hero text-center text-white">
+        <section class="hero text-center text-white" style="background-image: url('images/faqImage.png');"> <!-- Change background image here -->
           <h1 class="my-0">
             What is
             <figure class="d-inline-block ml-2 my-0">
@@ -88,7 +94,7 @@
               </thead>
               <tbody>
                 <tr>
-                  <td class="text-left border-0 pt-0 prices-col-1">Unlimitted access to all tutorials</td>
+                  <td class="text-left border-0 pt-0 prices-col-1">Unlimited access to all tutorials</td>
                   <td class="border-0 pt-0 prices-col-2"><span class="holberton_school-icon-check check-icon"></span></td>
                   <td class="border-0 pt-0 prices-col-3"><span class="holberton_school-icon-check check-icon"></span></td>
                 </tr>
@@ -267,5 +273,5 @@
     
     <!-- Custom Script -->
     <script src="scripts.js"></script>
-  </body>
+</body>
 </html>
